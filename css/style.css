@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+body {
+    background-color: lightgrey;
+
+}
+.container{
+    margin: 80px auto;
+    width: 425px;
+    padding: 2px;
+    background: lightgoldenrodyellow;
+    border-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow:0 25px 50px -12px rgba(255, 0, 0, 0.2);
+}
+.header{
+background-image: url(https://imgur.com/0CrObXz.png); 
+height: 200px;
+background-position: center;
+background-size: cover;
+/* background-repeat: no-repeat; */
+border-radius: 10px;
+padding: 20px;
+border-bottom: 2px solid green;
+position: relative;
+}
+
+#title{
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-weight: 500;
+}
+
+.clear{
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 24px;
+    color: black;
+    height: 180%;
+    width: 100%;
+    text-align: right;
+
+}
+
+#date{
+    font-size: 21px;
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+
+}
+
+.content{
+    background: white;
+    min-height: 300px;
+    height: 100%;
+
+}
+
+#list{
+    list-style-type: none;
+    min-height: 260px;
+    height: 90%;
+    border-bottom: 2px solid green;
+
+}
+
+.item{
+    width: 100%;
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+
+
+}
+
+.fa{
+    cursor: pointer;
+    transition: .1s linear;
+
+}
+
+.fa:hover{
+    transform: scale(1.2);
+}
+
+.item .fa, .item p{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.item p{
+    font-size: 18px;
+    margin: 0 auto;
+    margin: 0 0 0 20px;
+}
+.de{
+    float: right;
+    color: red;
+}
+
+.co{
+    float: left;
+    
+}
+.add-item{
+    min-height: 40px;
+    height: 100%;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    padding: 8px;
+    color: black;
+    background:#eee;
+
+}
+
+.add-item .fa{
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+input[type=text] {
+    width: 87%;
+    box-sizing: border-box;
+    display: inline;
+    float: right;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    background: white;
+    padding: 10px;
+    
+
+}
+
+input[type=text]::placeholder{
+    color: black;
+
+}
+
+.fa-check-circle{
+    color: green;
+
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    color: black;
+
+}
